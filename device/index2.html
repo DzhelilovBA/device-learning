@@ -3,10 +3,66 @@
   <head>
     <meta charset="utf-8">
     <title>Главная страница</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="">
   </head>
   <body>
-    <p>Hello world
-    </p>
+    <header class="page-header">
+        <img src="" class="logo-image" alt="Логотип магазина электроники Device">
+        <nav class="header-navigation">
+          <ul class="user-navigation">
+            <li>
+              <form class="searc-form" method="get" action="">
+                <label class="visually-hidden" for="product-search">Поиск товара по сайту</label>
+                <span class="search-icon"></span>
+                <input type="search" placeholder="Текст поиска" id="product-search" name="product-search">
+                <input type="submit" class="button search-button" name="search-button" value="Найти">
+              </form>
+            </li>
+            <li>
+              <a href="#">
+                <span class="login-logo"></span>
+                <span class="nav-user-text">Войти</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="compare-logo"></span>
+                <span class="nav-user-text">Сравнить</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="basket-logo"></span>
+                <span class="nav-user-text">Корзина</span>
+              </a>
+            </li>
+          </ul>
+          <ul class="site-navigation">
+            <li>
+              <a href="catalog.html">
+                <span class="nav-site-text">Каталог товаров</span>
+                <button type="button" class=" buttin catalog-view-button">
+                  <span class="visually-hidden">Просмотреть каталог товаров</span>
+                </button>
+              </a>
+            </li>
+            <li>
+              <a href="delivery.html">
+                <span class="nav-site-text">Доставка</span>
+              </a>
+            </li>
+            <li>
+              <a href="guarantee.html">
+                <span class="nav-site-text">Гарантия</span>
+              </a>
+            </li>
+            <li>
+              <a href="contacts.html">
+                <span class="nav-site-text">Контакты</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+    </header>
   </body>
 </html>
